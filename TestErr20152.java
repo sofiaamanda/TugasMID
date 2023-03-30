@@ -3,18 +3,27 @@
 
 public class TestErr20152 {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		for(int i=0; i<10; i++);
-			tot +== i;
-		if(i<j);
-			System.out.println(i);
-		elses
-			System.out.println(j);
-		do{
-			j++;
-		}whiles(j<10)
-		while (j<10);{
-			j++;
-			};
+		//TODO Auto-generated method stub
+		 int tot = 0;
+        int j = 0;
+
+        for (int i = 0; i < 10; i++) {
+            tot += i;
+            if (i < j) {
+                System.out.println(i);
+            } else {
+                System.out.println(j);
+		}
+	}
+
+        do {
+            j++;
+        } while (j < 10);
+
+        while (j < 20) {
+            j++; 
+	}
+
+        System.out.println("Total: " + tot);
 	}
 }
